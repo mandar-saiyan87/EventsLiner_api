@@ -8,6 +8,7 @@ async function checkUserExist(email, phoneNumber) {
             return { message: "Email already in use", userexist: true }
         }
 
+
         if (user.phoneNumber === phoneNumber) {
             return { message: "Phone Number already in use", userexist: true }
         }
